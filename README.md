@@ -2,11 +2,11 @@
 This is the clone of <a href="https://thenextweb.com/">The Next Web</a> website. Core focus of the project is responsive design.
 Click here to view the live version
 
-#Pre-requisites
+# Pre-requisites
 1) Install git
 2) Web browser such as Google chrome
 
-#Getting Started
+# Getting Started
 1) Open the terminal and enter the command git clone https://github.com/Tekcoder/-The-Next-Web-Clone.git
 2) Navigate to the directory of the cloned repository.
 3) Open the index.html file using a browser
