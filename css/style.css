@@ -3,8 +3,8 @@ html {
 }
 
 body {
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h3 {
@@ -15,7 +15,8 @@ h4 {
   font-weight: bolder;
 }
 
-h4 a, h5 a {
+h4 a,
+h5 a {
   text-decoration: none;
 } 
 
@@ -69,7 +70,7 @@ h2 .black-on-hover {
 }
 
 .mobile-nav-1 figure {
-  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
   height: 50px;
   width: 100px;
   margin: 0;
@@ -99,7 +100,8 @@ h2 .black-on-hover {
   cursor: pointer;
 }
 
-.mobile-nav-1 a, .mobile-nav-1 label {
+.mobile-nav-1 a,
+.mobile-nav-1 label {
   padding: 0 10px;
   height: 50px;
   line-height: 50px;
@@ -346,7 +348,8 @@ header {
   margin: 0;
 }
 
-.latest-news, .latest-deals {
+.latest-news, 
+.latest-deals {
   margin-bottom: 12px;
   display: flex;
   flex-flow: row wrap;
@@ -457,7 +460,8 @@ section.latest-funding > p:first-child a {
   color: rgba(0, 0, 0, 0.83);
 }
 
-.latest-funding div:nth-of-type(2) a:hover, .latest-funding div:nth-of-type(2) a i {
+.latest-funding div:nth-of-type(2) a:hover, 
+.latest-funding div:nth-of-type(2) a i {
   color: #000;
 }
 
@@ -628,6 +632,7 @@ footer ul {
   text-decoration: none;
   font-size: 0.8em;
 }
+
 .footer-icons ul:last-of-type {
   margin-top: 10px;
 }
@@ -679,7 +684,9 @@ footer ul {
   display: none;
 }
 
-.desktop-nav-1, .desktop-nav-2, .desktop-nav-3 {
+.desktop-nav-1, 
+.desktop-nav-2, 
+.desktop-nav-3 {
   display: none;
   box-sizing: border-box;
 }
@@ -747,7 +754,8 @@ footer ul {
     font-weight: 700;
   }
   
-  .latest-news-container, .latest-deals-container {
+  .latest-news-container, 
+  .latest-deals-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -755,38 +763,46 @@ footer ul {
     box-sizing: border-box;
   }
   
-  .latest-news-container::after,  .latest-deals-container::after {
+  .latest-news-container::after,  
+  .latest-deals-container::after {
     content: '';
     flex: auto;
   }
 
-  .latest-news, .latest-deals {
+  .latest-news, 
+  .latest-deals {
     display: block;
     width: 32%;
     padding-left: 1%;
   }
   
-  .latest-news-wrapper .latest-news section, .latest-news-wrapper .latest-news figure,
-  .latest-deals-wrapper .latest-deals section, .latest-deals-wrapper .latest-deals figure {
+  .latest-news-wrapper .latest-news section, 
+  .latest-news-wrapper .latest-news figure,
+  .latest-deals-wrapper .latest-deals section, 
+  .latest-deals-wrapper .latest-deals figure {
     margin: 0;
     width: 100%;
   }
   
-  .latest-news-wrapper .latest-news figure, .latest-deals-wrapper .latest-deals figure {
+  .latest-news-wrapper .latest-news figure, 
+  .latest-deals-wrapper .latest-deals figure {
     height: 150px;
     margin-bottom: 10px;
   }
   
-  .latest-news-wrapper .latest-news section p, .latest-deals-wrapper .latest-deals section p {
+  .latest-news-wrapper .latest-news section p, 
+  .latest-deals-wrapper .latest-deals section p {
     margin-top: 10px;
     font-size: 0.8em;
   }
   
-  .latest-news-wrapper .latest-news section p a, .latest-deals-wrapper .latest-deals section p a {
+  .latest-news-wrapper .latest-news section p a, 
+  .latest-deals-wrapper .latest-deals section p a {
     font-size: 1em;
   }
   
-  .latest-news section a:first-of-type, .latest-deals section a:first-of-type {
+  .latest-news section a:first-of-type, 
+  .latest-deals section a:first-of-type {
     font-size: 1.17em;
   }
   
@@ -868,7 +884,9 @@ footer ul {
     display: none;
   }
   
-  .desktop-nav-1 ul li, .desktop-nav-2 ul li, .desktop-nav-3 ul li {
+  .desktop-nav-1 ul li, 
+  .desktop-nav-2 ul li, 
+  .desktop-nav-3 ul li {
     display: inline-block;
     color: #fff;
   }
@@ -923,6 +941,7 @@ footer ul {
   main {
     margin-top: 0;
   }
+  
   .desktop-nav-1 ul li a {
     line-height: 30px;
     height: 30px;
@@ -936,7 +955,8 @@ footer ul {
     padding-left: 15px;
   }
   
-  .desktop-nav-1 ul li:first-of-type a, .desktop-nav-1 ul li a:hover {
+  .desktop-nav-1 ul li:first-of-type a, 
+  .desktop-nav-1 ul li a:hover {
     color: #fff;
   }
   
@@ -965,7 +985,8 @@ footer ul {
     position: relative;
   }
   
-  .desktop-nav-1 ul li:nth-of-type(2):hover .dropdown-content, .desktop-nav-1 ul li:nth-of-type(3):hover .dropdown-content {
+  .desktop-nav-1 ul li:nth-of-type(2):hover .dropdown-content, 
+  .desktop-nav-1 ul li:nth-of-type(3):hover .dropdown-content {
     top: 32px;
     /* transition: top 1s ease-in-out; TODO */
     display: block;
@@ -981,7 +1002,8 @@ footer ul {
     color: rgba(255, 255, 255, 0.7);
   }
   
-  .desktop-nav-2 ul li a, .desktop-nav-3 ul li a {
+  .desktop-nav-2 ul li a, 
+  .desktop-nav-3 ul li a {
     color: #fff;
     color: rgba(0, 0, 0, 0.6);
     height: 50px;
@@ -992,25 +1014,30 @@ footer ul {
 
   }
   
-  .desktop-nav-2 ul li:nth-of-type(n+2) a, .desktop-nav-3 ul li:nth-of-type(n+2) a {
+  .desktop-nav-2 ul li:nth-of-type(n+2) a, 
+  .desktop-nav-3 ul li:nth-of-type(n+2) a {
     padding-left: 10px;
   }
   
-  .desktop-nav-2 ul li a:hover, .desktop-nav-3 ul li a:hover {
+  .desktop-nav-2 ul li a:hover, 
+  .desktop-nav-3 ul li a:hover {
     color: #000;
   }
   
-  .desktop-nav-2 ul, .desktop-nav-3 ul {
+  .desktop-nav-2 ul, 
+  .desktop-nav-3 ul {
     position: relative;
     width: 100%;
   }
   
-  .desktop-nav-2 ul li:last-of-type, .desktop-nav-3 ul li:last-of-type {
+  .desktop-nav-2 ul li:last-of-type, 
+  .desktop-nav-3 ul li:last-of-type {
     position: absolute;
     right: 0;
   }
   
-  .desktop-nav-2 ul li:last-of-type i, .desktop-nav-3 ul li:last-of-type i{
+  .desktop-nav-2 ul li:last-of-type i, 
+  .desktop-nav-3 ul li:last-of-type i{
     color: black;
     color: rgba(0, 0, 0, 0.4);
     height: 50px;
@@ -1031,11 +1058,14 @@ footer ul {
     margin-top: 2px;
   }
   
-  .desktop-nav-1 figure, .desktop-nav-2 figure {
+  .desktop-nav-1 figure, 
+  .desktop-nav-2 figure {
     display: none;
   }
   
-  .desktop-nav-1, .desktop-nav-2, .caption {
+  .desktop-nav-1, 
+  .desktop-nav-2, 
+  .caption {
     padding-left: 20px;
     margin: 0;
   }
@@ -1068,7 +1098,8 @@ footer ul {
     font-size: 1.35em;
   }
   
-  .latest-news, .latest-deals {
+  .latest-news, 
+  .latest-deals {
     display: block;
     width: 24.25%;
     padding-left: 0;
@@ -1084,7 +1115,8 @@ footer ul {
     margin: 0;
   }
   
-  .latest-news-container::after,  .latest-deals-container::after {
+  .latest-news-container::after,  
+  .latest-deals-container::after {
     content: none;
     flex: none;
   }
@@ -1098,22 +1130,26 @@ footer ul {
     margin-top: 60px;
   }
   
-  .latest-funding-header, .latest-deals-header {
+  .latest-funding-header, 
+  .latest-deals-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 20px;
   }
   
-  .latest-funding-header .no-mg, .latest-deals-header .no-mg{
+  .latest-funding-header .no-mg, 
+  .latest-deals-header .no-mg {
     width: 50%;
   }
   
-  .latest-funding-header ul, .latest-deals-header p{ 
+  .latest-funding-header ul, 
+  .latest-deals-header p { 
     width: 40%;
     margin: 0;
   }
-  .latest-deals-header p{
+  
+  .latest-deals-header p {
     text-align: right;
   }
   
@@ -1181,7 +1217,8 @@ footer ul {
     padding-left: 1%;
   }
   
-  .latest-news-wrapper .latest-news figure, .latest-deals-wrapper .latest-deals figure {
+  .latest-news-wrapper .latest-news figure, 
+  .latest-deals-wrapper .latest-deals figure {
     height: 200px;
   }
   
